@@ -1,0 +1,65 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        white: "#fff",
+        blueviolet: "#5c27c0",
+        dimgray: {
+          "100": "#696969",
+          "200": "#505050",
+        },
+        gray: {
+          "100": "#898989",
+          "200": "#202020",
+        },
+        mediumpurple: "#b086ff",
+        gainsboro: "#d9d9d9",
+        black: "#000",
+      },
+      fontFamily: {
+        "gilroy-semibold": "Gilroy-SemiBold",
+        "gilroy-regular": "Gilroy-Regular",
+        outfit: "Outfit",
+        body: "Quicksand",
+        "gilroy-bold": "Gilroy-Bold",
+        "gilroy-medium": "Gilroy-Medium",
+        montserrat: "Montserrat",
+        poppins: "Poppins",
+        "gilroy-extrabold": "Gilroy-ExtraBold",
+        inter: "Inter",
+      },
+      borderRadius: {
+        "17xl-7": "36.7px",
+        "7xs-7": "5.7px",
+        "31xl": "50px",
+        "mid-5": "17.5px",
+        "7xs-1": "5.1px",
+        xl: "20px",
+        "smi-8": "12.8px",
+        "8xs-6": "4.6px",
+        "8xs-2": "4.2px",
+        "8xs-5": "4.5px",
+        "mid-8": "17.8px",
+        "21xl": "40px",
+      },
+    },
+    fontSize: {
+      "base-5": "16.5px",
+      base: "16px",
+      "3xl-5": "22.5px",
+      "5xl": "24px",
+      "xl-4": "20.4px",
+      "21xl": "40px",
+      "45xl": "64px",
+      xl: "20px",
+      "13xl": "32px",
+      "xl-5": "20.5px",
+      "17xl": "36px",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
